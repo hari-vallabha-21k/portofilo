@@ -11,24 +11,24 @@ export function HeroButtons() {
 				<a href="#timeline">Learn more</a>
 			</Button>
 			<Button asChild>
-				<a href="/resume.pdf" target="_blank">
-					Resumé
+				<a href="/harii resume.pdf" target="_blank">
+					Resume
 				</a>
 			</Button>
 
 			<IconContext.Provider value={{ size: "1.5rem" }}>
 				<Button size="icon" asChild>
-					<a href="https://github.com/declspecl" target="_blank" aria-label="GitHub link">
+					<a href="" target="_blank" aria-label="GitHub link">
 						<LuGithub />
 					</a>
 				</Button>
 				<Button size="icon" asChild>
-					<a href="https://www.linkedin.com/in/gavindhondt/" target="_blank" aria-label="Linkedin link">
+					<a href="https://www.linkedin.com/in/harii-vallabha-4892602a5" target="_blank" aria-label="Linkedin link">
 						<LuLinkedin />
 					</a>
 				</Button>
 				<Button size="icon" asChild>
-					<a href="mailto:gavindhondt@proton.me" aria-label="Email link">
+					<a href="mailto:harivallabhak@gmail.com" aria-label="Email link">
 						<LuMail />
 					</a>
 				</Button>

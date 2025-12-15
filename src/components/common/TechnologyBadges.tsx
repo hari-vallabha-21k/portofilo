@@ -12,8 +12,14 @@ import {
 	SiTailwindcss,
 	SiTypescript,
 	SiVercel,
-	SiVite
+	SiVite,
+	SiJavascript,
+	SiNodedotjs,
+	SiGit,
+	SiGithub,
+	SiFlask
 } from "react-icons/si";
+import { SiMysql } from "react-icons/si";
 import { FaAws, FaFigma, FaJava, FaPython, FaRust } from "react-icons/fa6";
 
 interface StaticBadgeProps {
@@ -66,6 +72,30 @@ export function SQLiteBadge() {
 
 export function PythonBadge() {
 	return <StaticBadge name={Technology.Python} icon={<FaPython />} className="bg-[#7f720a]" />;
+}
+
+export function FlaskBadge() {
+	return <StaticBadge name={Technology.Flask} icon={<SiFlask />} className="bg-[#4b2b2b]" />;
+}
+
+export function JavaScriptBadge() {
+	return <StaticBadge name={Technology.JavaScript} icon={<SiJavascript />} className="bg-[#3b3b1f]" />;
+}
+
+export function NodeJSBadge() {
+	return <StaticBadge name={Technology.NodeJS} icon={<SiNodedotjs />} className="bg-[#23412b]" />;
+}
+
+export function GitBadge() {
+	return <StaticBadge name={Technology.Git} icon={<SiGit />} className="bg-[#2a2a2a]" />;
+}
+
+export function GitHubBadge() {
+	return <StaticBadge name={Technology.GitHub} icon={<SiGithub />} className="bg-[#0b0b0b]" />;
+}
+
+export function SQLBadge() {
+	return <StaticBadge name={Technology.SQL} icon={<SiMysql />} className="bg-[#2b5876]" />;
 }
 
 export function RustBadge() {
@@ -140,6 +170,18 @@ export function TechnologyBadge({ technology }: TechnologyBadgeProps) {
 			return <SpringBootBadge />;
 		case Technology.AWS:
 			return <AWSBadge />;
+		case Technology.Flask:
+			return <FlaskBadge />;
+		case Technology.JavaScript:
+			return <JavaScriptBadge />;
+		case Technology.NodeJS:
+			return <NodeJSBadge />;
+		case Technology.Git:
+			return <GitBadge />;
+		case Technology.GitHub:
+			return <GitHubBadge />;
+		case Technology.SQL:
+			return <SQLBadge />;
 		case Technology.GCP:
 			return <GCPBadge />;
 		case Technology.Nginx:

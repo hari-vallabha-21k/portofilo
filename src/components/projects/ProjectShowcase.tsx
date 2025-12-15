@@ -21,13 +21,28 @@ export function ProjectShowcase({ project, direction = "row-reverse" }: ProjectS
 
 	const [magnifiedScreenshot, setMagnifiedScreenshot] = useState<ProjectScreenshot | null>(null);
 
+	const openLive = () => {
+		if (links?.live) window.open(links.live, "_blank", "noopener,noreferrer");
+	};
+
 	return (
 		<Dialog open={magnifiedScreenshot !== null}>
 			<div
+				role={links?.live ? "link" : undefined}
+				onClick={links?.live ? openLive : undefined}
+				onKeyDown={
+					links?.live
+						? (e) => {
+								if (e.key === "Enter" || e.key === " ") openLive();
+							}
+						: undefined
+				}
+				tabIndex={links?.live ? 0 : undefined}
 				className={cn("flex flex-col gap-4 md:items-center md:gap-8", {
 					"md:flex-row": direction === "row",
 					"md:flex-row-reverse": direction === "row-reverse"
 				})}
+				style={links?.live ? { cursor: "pointer" } : undefined}
 			>
 				<div className="md:grow md:basis-0">
 					<span className="mb-2 inline-flex flex-col gap-2 xs:mb-0 xs:flex-row xs:flex-wrap xs:items-center xs:gap-4">
@@ -37,14 +52,14 @@ export function ProjectShowcase({ project, direction = "row-reverse" }: ProjectS
 							<IconContext.Provider value={{ size: "1.25rem" }}>
 								{links?.github && (
 									<Button size="icon-sm" variant="default" asChild>
-										<a href={links.github} target="_blank" aria-label={`${project.name} GitHub link`}>
+										<a href={links.github} target="_blank" aria-label={`${project.name} GitHub link`} onClick={(e) => e.stopPropagation()}>
 											<LuGithub />
 										</a>
 									</Button>
 								)}
 								{links?.live && (
 									<Button size="icon-sm" asChild>
-										<a href={links.live} target="_blank" aria-label={`${project.name} live site link`}>
+										<a href={links.live} target="_blank" aria-label={`${project.name} live site link`} onClick={(e) => e.stopPropagation()}>
 											<LuGlobe />
 										</a>
 									</Button>

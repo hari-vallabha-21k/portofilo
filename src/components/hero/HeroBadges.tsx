@@ -21,8 +21,8 @@ export function HeroBadges() {
 			/>
 
 			<HeroBadge
-				text="Playing: Elin"
-				href="https://store.steampowered.com/app/2135150/Elin/"
+				text="Playing: Clash Of Clans"
+				href="https://supercell.com/en/games/clashofclans/"
 				icon={
 					<IconContext.Provider value={{ size: "1rem" }}>
 						<FaSteam />
@@ -32,8 +32,8 @@ export function HeroBadges() {
 			/>
 
 			<HeroBadge
-				text="Listening to: Louise - TV Girl"
-				href="https://open.spotify.com/track/263KsGZODTZouh3RFGNaLX"
+				text="Listening to: Louise - Die With A Smile"
+				href="https://open.spotify.com/track/2plbrEY59IikOBgBGLjaoe"
 				icon={
 					<IconContext.Provider value={{ size: "1rem" }}>
 						<FaSpotify />

@@ -19,11 +19,29 @@ const satoshi = localFont({
 });
 
 export const metadata: Metadata = {
-	title: "Gavin D'Hondt",
-	description: "I'm Gavin D'Hondt. I'm a Jr. SDE at Amazon and Computer Science student at Oakland University",
-	authors: { name: "Gavin D'Hondt" },
-	keywords: ["Gavin D'Hondt", "Software engineer", "SWE", "Developer", "Full stack", "Amazon", "Oakland University", "Student"],
-	metadataBase: new URL("https://www.gavindhondt.com"),
+	title: "Kadam Hari Vallabha",
+	description:
+		"I'm Kadam Hari Vallabha, a final-year B.Tech Data Science student specializing in full-stack development, machine learning, and AI-driven applications.",
+
+	authors: [{ name: "Kadam Hari Vallabha" }],
+
+	keywords: [
+		"Kadam Hari Vallabha",
+		"Hari Vallabha",
+		"Data Scientist",
+		"Machine Learning Engineer",
+		"Full Stack Developer",
+		"AI Developer",
+		"Python Developer",
+		"React Developer",
+		"Flask",
+		"Node.js",
+		"Data Science Student",
+		"ML Projects",
+		"Healthcare Analytics",
+		"AI Voice Assistant"
+	],
+	metadataBase: new URL("https://www.HariVallabha.com"),
 	openGraph: {
 		title: "Gavin D'Hondt",
 		description: "I'm Gavin D'Hondt. I'm a Jr. SDE at Amazon and Computer Science student at Oakland University",

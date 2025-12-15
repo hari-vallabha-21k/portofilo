@@ -3,44 +3,39 @@ import { TimelineEntryInformation } from "./model";
 
 export const experienceEntries: TimelineEntryInformation[] = [
 	{
-		header: "Amazon",
-		subheader: "Junior Software Engineer",
-		dateRange: [{ year: 2024, monthNumber: 4 }, null],
-		location: "Detroit, Michigan",
+		header: "Freelance AI Productivity App Developer",
+		subheader: "AI / Full-Stack Developer",
+		dateRange: [
+			{ year: 2024, monthNumber: 1 },
+			{ year: 2024, monthNumber: 4 }
+		],
+		location: "Remote",
 		type: "bullets",
 		bullets: [
-			"Enable millions of sellers to sell goods globally on Amazon",
-			"Conduct numerous large-scale migrations and code changes to modernize services",
-			"Develop a novel tool to diagnose Seller Support issues, facilitating easier debugging for engineering teams",
-			"Reduce maintenance overhead by aiding in deprecating and distributing responsibilities of legacy services"
+			"Developed a neuro-productivity application (Code Craft) using Flask, Electron.js, and GitHub API.",
+			"Improved user focus cycles by 30% through typing stress analysis and real-time cognitive state detection.",
+			"Designed gamified UX and wellness triggers to enhance sustained productivity.",
+			"Built and deployed full-stack features with a strong focus on performance and usability."
 		],
-		badges: [
-			Technology.AWS,
-			Technology.Java,
-			Technology.React,
-			Technology.TypeScript,
-			Technology.Rust,
-			Technology.Python,
-			"Agile",
-			"Leadership",
-			"Teamwork"
-		]
+		badges: [Technology.Python, Technology.Flask, Technology.JavaScript, Technology.React, Technology.NodeJS, Technology.Git, Technology.GitHub]
 	}
 ];
 
 export const educationEntries: TimelineEntryInformation[] = [
 	{
-		header: "Oakland University",
-		subheader: "Bachelor of Science in Computer Science",
-		dateRange: [{ year: 2023, monthNumber: 9 }, null],
-		location: "Rochester, Michigan",
+		header: "Vignana Bharathi Institute of Technology",
+		subheader: "Bachelor of Technology (B.Tech) – Data Science",
+		dateRange: [
+			{ year: 2022, monthNumber: 9 },
+			{ year: 2026, monthNumber: 6 }
+		],
+		location: "Hyderabad, Telangana, India",
 		type: "bullets",
 		bullets: [
-			"4.0 GPA, 71 credits completed",
-			"Member of the Honors College",
-			"President's list for Fall 2023 and Winter 2024",
-			"Relevant coursework: Data Structures, Intro to Computer Networks, C Programming and Unix, Object-Oriented Programming"
+			"Current CGPA: 7.1",
+			"Focused on Data Science, Machine Learning, and Full-Stack Development",
+			"Hands-on experience with real-world projects in healthcare analytics and AI systems"
 		],
-		badges: [Technology.Java, Technology.React, Technology.TypeScript, Technology.CPP, "Leadership", "Teamwork"]
+		badges: [Technology.Python, Technology.JavaScript, Technology.React, Technology.NodeJS, Technology.SQL]
 	}
 ];

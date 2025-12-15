@@ -3,6 +3,75 @@ import { Technology } from "@/lib/common";
 
 export const projects: Project[] = [
 	{
+		name: "Code Craft",
+		summary: "AI-powered neuro-productivity application to improve focus using behavioral analytics",
+		technologies: [Technology.Python, Technology.Flask, Technology.JavaScript, Technology.React, Technology.Git, Technology.GitHub],
+		links: {
+			// github: "https://github.com/your-username/code-craft"
+		},
+		screenshots: [
+			{
+				name: "Code Craft focus dashboard",
+				mobile: {
+					src: "/images/code-craft/dashboard-460w.webp",
+					width: 460,
+					height: 367
+				},
+				desktop: {
+					src: "/images/code-craft/dashboard-350w.webp",
+					width: 350,
+					height: 279
+				},
+				magnified: {
+					src: "/images/code-craft/dashboard-740w.webp",
+					width: 740,
+					height: 590
+				}
+			}
+		],
+		type: "bullets",
+		bullets: [
+			"Built a neuro-productivity application using Flask and full-stack web technologies.",
+			"Analyzed typing patterns to detect stress and cognitive fatigue in real time.",
+			"Improved user focus cycles by 30% through behavioral analytics and adaptive wellness triggers.",
+			"Implemented gamified UX elements to encourage sustained productivity."
+		]
+	},
+	{
+		name: "Simpl Home – AI Voice Assistant",
+		summary: "AI-powered voice assistant for automating customer support with multilingual capabilities",
+		technologies: [Technology.React, Technology.TypeScript, Technology.NodeJS, Technology.Python],
+		links: {
+			// add later if deployed
+		},
+		screenshots: [
+			{
+				name: "Simpl Home dashboard",
+				mobile: {
+					src: "/images/simpl-home/dashboard-460w.webp",
+					width: 460,
+					height: 367
+				},
+				desktop: {
+					src: "/images/simpl-home/dashboard-350w.webp",
+					width: 350,
+					height: 279
+				},
+				magnified: {
+					src: "/images/simpl-home/dashboard-740w.webp",
+					width: 740,
+					height: 590
+				}
+			}
+		],
+		type: "bullets",
+		bullets: [
+			"Developed an AI voice agent to automate customer service with 24/7 multilingual support.",
+			"Integrated voice workflows to handle customer queries and actions without human intervention.",
+			"Improved support ticket resolution speed by 40% through automation."
+		]
+	},
+	{
 		name: "UniFit",
 		summary: "Full-stack meal planning solution for university students",
 		technologies: [

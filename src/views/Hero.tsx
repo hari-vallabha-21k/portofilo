@@ -5,15 +5,23 @@ import { SectionTitle } from "@/components/typography/SectionTitle";
 export function HeroSection() {
 	return (
 		<section id="about" className="mx-auto max-w-[40rem]">
-			<SectionTitle text="Hi, I'm Gavin D'Hondt." />
-
-			<div className="mb-2 text-base">
-				<p className="mb-2">I&apos;m a Jr. SDE at Amazon and Computer Science student at Oakland University</p>
-				<p className="mb-2">
-					I&apos;ve been programming for over seven years, and I am obsessed with learning. I&apos;m currently focused on building full-stack web
-					solutions, particularly using cloud technologies, but I&apos;m always deep diving various branches of Computer Science.
+			<SectionTitle text="Hi,Hari Vallabha." />
+			<div className="space-y-6">
+				<p>
+					I&apos;m a final-year <em>B.Tech Data Science</em> student passionate about building intelligent, ethical technology that drives real-world
+					impact.
 				</p>
-				<p>Outside of programming, I love learning new things, listening to music, and playing video games!</p>
+				<p>
+					I specialize in <em>full-stack development</em> and <em>machine learning</em>, leveraging <em>Python, React, Node.js, Flask</em>, and data
+					tools like
+					<em>Pandas, Scikit-learn</em>, and <em>Plotly</em> to create applications in
+					<em>healthcare equity</em>, <em>productivity</em>, and <em>AI automation</em>.
+				</p>
+				<p>
+					From detecting <em>triage bias</em> to improving <em>focus through behavioral analytics</em>, I believe technology should be not only{" "}
+					<em>smart</em>—but also
+					<em>fair, accessible, and human-first</em>.
+				</p>
 			</div>
 
 			<div className="mb-4 text-base">
