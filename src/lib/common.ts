@@ -21,5 +21,10 @@ export enum Technology {
 	SpringBoot = "Spring Boot",
 	AWS = "AWS",
 	GCP = "GCP",
-	Nginx = "Nginx"
+	Nginx = "Nginx",
+	Convex = "Convex",
+	FramerMotion = "Framer Motion",
+	ThreeJS = "Three.js",
+	GeminiAI = "Gemini AI",
+	MachineLearning = "Machine Learning"
 }

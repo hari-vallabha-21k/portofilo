@@ -101,7 +101,17 @@ export const projects: Project[] = [
 	{
 		name: "Simpl Home ",
 		summary: "AI-powered voice assistant for automating customer support with multilingual capabilities",
-		technologies: [Technology.React, Technology.TypeScript, Technology.NodeJS, Technology.Python],
+		technologies: [
+			Technology.React,
+			Technology.TypeScript,
+			Technology.NodeJS,
+			Technology.Python,
+			Technology.TailwindCSS,
+			Technology.Convex,
+			Technology.FramerMotion,
+			Technology.GeminiAI,
+			Technology.Vercel
+		],
 		links: {
 			live: "https://simplhome.vercel.app/"
 		},

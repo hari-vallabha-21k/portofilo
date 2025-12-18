@@ -43,9 +43,10 @@ export const metadata: Metadata = {
 	],
 	metadataBase: new URL("https://www.HariVallabha.com"),
 	openGraph: {
-		title: "Gavin D'Hondt",
-		description: "I'm Gavin D'Hondt. I'm a Jr. SDE at Amazon and Computer Science student at Oakland University",
-		url: "https://www.gavindhondt.com",
+		title: "Kadam Hari Vallabha",
+		description:
+			"I'm Kadam Hari Vallabha, a final-year B.Tech Data Science student specializing in full-stack development, machine learning, and AI-driven applications.",
+		url: "https://www.HariVallabha.com",
 		images: "/opengraph-image.png"
 	}
 };
