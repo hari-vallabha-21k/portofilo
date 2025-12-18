@@ -4,22 +4,11 @@ import React from "react";
 import { cn } from "@/lib/utils";
 import { IconContext } from "react-icons";
 import { LuArrowUpRight } from "react-icons/lu";
-import { FaRust, FaSpotify, FaSteam } from "react-icons/fa6";
+import { FaSpotify, FaSteam } from "react-icons/fa6";
 
 export function HeroBadges() {
 	return (
-		<div className="flex flex-row flex-wrap items-center gap-2">
-			<HeroBadge
-				text="Building: PliteDB"
-				href="https://github.com/declspecl/plitedb"
-				icon={
-					<IconContext.Provider value={{ size: "1rem" }}>
-						<FaRust />
-					</IconContext.Provider>
-				}
-				className="bg-[#5a493d] hover:bg-[#6b5b4e]"
-			/>
-
+		<div className="flex flex-wrap gap-2">
 			<HeroBadge
 				text="Playing: Clash Of Clans"
 				href="https://supercell.com/en/games/clashofclans/"

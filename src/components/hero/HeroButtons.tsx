@@ -18,7 +18,7 @@ export function HeroButtons() {
 
 			<IconContext.Provider value={{ size: "1.5rem" }}>
 				<Button size="icon" asChild>
-					<a href="" target="_blank" aria-label="GitHub link">
+					<a href="https://github.com/hari-vallabha-21k" target="_blank" aria-label="GitHub link">
 						<LuGithub />
 					</a>
 				</Button>

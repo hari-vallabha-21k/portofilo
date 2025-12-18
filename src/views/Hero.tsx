@@ -8,19 +8,17 @@ export function HeroSection() {
 			<SectionTitle text="Hi,Hari Vallabha." />
 			<div className="space-y-6">
 				<p>
-					I&apos;m a final-year <em>B.Tech Data Science</em> student passionate about building intelligent, ethical technology that drives real-world
-					impact.
+					I am a final-year <em>B.Tech Data Science</em> student passionate about building intelligent, ethical technologies that create meaningful
+					real-world impact.
 				</p>
 				<p>
-					I specialize in <em>full-stack development</em> and <em>machine learning</em>, leveraging <em>Python, React, Node.js, Flask</em>, and data
-					tools like
-					<em>Pandas, Scikit-learn</em>, and <em>Plotly</em> to create applications in
-					<em>healthcare equity</em>, <em>productivity</em>, and <em>AI automation</em>.
+					I specialize in <em>full-stack development</em> and <em>machine learning</em>, using tools such as{" "}
+					<em>Python, React, Node.js, and Flask</em>, along with data libraries including <em>Pandas, Scikit-learn, and Plotly</em>, to develop
+					applications focused on <em>healthcare equity</em>, <em>productivity</em>, and <em>AI-driven automation</em>.
 				</p>
 				<p>
-					From detecting <em>triage bias</em> to improving <em>focus through behavioral analytics</em>, I believe technology should be not only{" "}
-					<em>smart</em>—but also
-					<em>fair, accessible, and human-first</em>.
+					From identifying <em>triage bias</em> to enhancing <em>focus through behavioral analytics</em>, I believe technology should not only be{" "}
+					<em>intelligent</em> but also <em>fair, accessible, and human-centered</em>.
 				</p>
 			</div>
 

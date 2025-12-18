@@ -25,11 +25,9 @@ export function DesktopNavbar({ className }: DesktopNavbarProps) {
 			<NavbarLink href="/#projects" useClientSideRouting>
 				Projects
 			</NavbarLink>
-			<NavbarLink href="/blog" useClientSideRouting>
-				Blog
-			</NavbarLink>
-			<NavbarLink href="/resume.pdf" openInNewTab>
-				Resumé
+
+			<NavbarLink href="/harii resume.pdf" openInNewTab>
+				Resume
 			</NavbarLink>
 		</nav>
 	);
